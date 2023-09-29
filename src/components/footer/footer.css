@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;         
+    align-items: center;
+}
+.icons:hover{
+   color: cadetblue;
+}
+.icon-size{
+    font-size: 3.5vh;
+    padding-bottom: 0px;
+}

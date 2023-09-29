@@ -1,0 +1,40 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 250px;
+    /* padding: 15px; */
+    margin: 0px 15px;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    transition: ease;
+}
+.media:hover{
+    background-color: #1f1e1e;
+    color: rgb(73, 73, 73);
+    transform: scale(1.03);
+}
+ @media (max-width: 550px){
+    .media{
+        width: 90%;
+        margin-bottom: 12px;
+    }
+} 
+.poster{
+    border-radius: 10px;
+    padding: 1px;
+    width: 250px
+}
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px ;
+}
+.subtitle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 3px;
+}
